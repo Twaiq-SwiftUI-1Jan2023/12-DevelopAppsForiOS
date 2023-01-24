@@ -94,7 +94,7 @@
 		F5F010BB297FB5E4001F2162 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				F552E83A297F319C00DC9966 /* TrailingIconLabelStyle.swift */,
+				F5F010BF297FB67E001F2162 /* Helpers */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -102,8 +102,7 @@
 		F5F010BC297FB5F7001F2162 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F552E832297F2EEE00DC9966 /* Theme.swift */,
-				F552E834297F2FFB00DC9966 /* DailyScrum.swift */,
+				F5F010C0297FB689001F2162 /* Models */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -129,6 +128,23 @@
 				F5F010B8297FB113001F2162 /* DetailEditView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F5F010BF297FB67E001F2162 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F552E83A297F319C00DC9966 /* TrailingIconLabelStyle.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F5F010C0297FB689001F2162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F552E832297F2EEE00DC9966 /* Theme.swift */,
+				F552E834297F2FFB00DC9966 /* DailyScrum.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
