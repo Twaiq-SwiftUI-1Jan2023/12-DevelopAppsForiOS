@@ -86,13 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				F5F010BD297FB60B001F2162 /* UTLIS */,
-				F552E822297F2EA500DC9966 /* ScrumdingerApp.swift */,
-				F552E824297F2EA500DC9966 /* ContentView.swift */,
-				F552E837297F305A00DC9966 /* CardView.swift */,
-				F5F010B2297F9F30001F2162 /* ScrumsView.swift */,
-				F5F010B4297FAA9B001F2162 /* DetailView.swift */,
-				F5F010B6297FAF86001F2162 /* MeetingView.swift */,
-				F5F010B8297FB113001F2162 /* DetailEditView.swift */,
+				F5F010BE297FB65E001F2162 /* Views */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -121,6 +115,20 @@
 				F552E828297F2EA700DC9966 /* Preview Content */,
 			);
 			path = UTLIS;
+			sourceTree = "<group>";
+		};
+		F5F010BE297FB65E001F2162 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F552E822297F2EA500DC9966 /* ScrumdingerApp.swift */,
+				F552E824297F2EA500DC9966 /* ContentView.swift */,
+				F552E837297F305A00DC9966 /* CardView.swift */,
+				F5F010B2297F9F30001F2162 /* ScrumsView.swift */,
+				F5F010B4297FAA9B001F2162 /* DetailView.swift */,
+				F5F010B6297FAF86001F2162 /* MeetingView.swift */,
+				F5F010B8297FB113001F2162 /* DetailEditView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
