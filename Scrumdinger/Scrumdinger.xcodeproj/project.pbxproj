@@ -67,10 +67,9 @@
 		F552E821297F2EA500DC9966 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				F552E839297F317F00DC9966 /* Helpers */,
-				F552E836297F304800DC9966 /* Views */,
-				F552E831297F2ECD00DC9966 /* Models */,
-				F552E830297F2EB200DC9966 /* UTLIS */,
+				F5F010BC297FB5F7001F2162 /* Models */,
+				F5F010BB297FB5E4001F2162 /* Helpers */,
+				F5F010BA297FB5CD001F2162 /* Views */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -83,27 +82,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F552E830297F2EB200DC9966 /* UTLIS */ = {
+		F5F010BA297FB5CD001F2162 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F552E826297F2EA700DC9966 /* Assets.xcassets */,
-				F552E828297F2EA700DC9966 /* Preview Content */,
-			);
-			name = UTLIS;
-			sourceTree = "<group>";
-		};
-		F552E831297F2ECD00DC9966 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F552E832297F2EEE00DC9966 /* Theme.swift */,
-				F552E834297F2FFB00DC9966 /* DailyScrum.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		F552E836297F304800DC9966 /* Views */ = {
-			isa = PBXGroup;
-			children = (
+				F5F010BD297FB60B001F2162 /* UTLIS */,
 				F552E822297F2EA500DC9966 /* ScrumdingerApp.swift */,
 				F552E824297F2EA500DC9966 /* ContentView.swift */,
 				F552E837297F305A00DC9966 /* CardView.swift */,
@@ -115,12 +97,30 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		F552E839297F317F00DC9966 /* Helpers */ = {
+		F5F010BB297FB5E4001F2162 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				F552E83A297F319C00DC9966 /* TrailingIconLabelStyle.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F5F010BC297FB5F7001F2162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F552E832297F2EEE00DC9966 /* Theme.swift */,
+				F552E834297F2FFB00DC9966 /* DailyScrum.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F5F010BD297FB60B001F2162 /* UTLIS */ = {
+			isa = PBXGroup;
+			children = (
+				F552E826297F2EA700DC9966 /* Assets.xcassets */,
+				F552E828297F2EA700DC9966 /* Preview Content */,
+			);
+			path = UTLIS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
