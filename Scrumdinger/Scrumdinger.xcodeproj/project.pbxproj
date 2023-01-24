@@ -68,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				F5F010BC297FB5F7001F2162 /* Models */,
-				F5F010BB297FB5E4001F2162 /* Helpers */,
 				F5F010BA297FB5CD001F2162 /* Views */,
 			);
 			path = Scrumdinger;
@@ -85,6 +84,7 @@
 		F5F010BA297FB5CD001F2162 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5F010BB297FB5E4001F2162 /* Helpers */,
 				F5F010BD297FB60B001F2162 /* UTLIS */,
 				F5F010BE297FB65E001F2162 /* Views */,
 			);
